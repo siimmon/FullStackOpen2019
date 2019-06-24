@@ -1,7 +1,13 @@
 title adding a new note
 
-note over browser: user writes note in textbox
+note over browser: 
+user writes note in textbox
+end note
 browser->server: HTTP POST /new_note with Form Data as body
-note over server: JS handles the /new_note POST request - pushes the note content and timestamp to JSON
+note over server:
+JS handles the /new_note POST request
+pushes the note content 
+and timestamp to JSON
+end note
 server-> browser: 302 Response - redirect /notes
 browser->server: HTTP GET /notes - see notes diagram
