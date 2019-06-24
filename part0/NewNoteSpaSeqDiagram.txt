@@ -1,0 +1,11 @@
+title New Note Spa
+
+browser->server: HTTP POST /new_note_spa
+note over browser:
+default prevented - no redirect
+note is pushed to notes array
+textbox is reset
+notes are redraw on page
+note is sent to server
+end note
+server->browser: return 201 - no redirect
